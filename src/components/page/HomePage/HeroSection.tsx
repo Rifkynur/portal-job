@@ -7,7 +7,7 @@ import { BiBuildings } from "react-icons/bi";
 
 const HeroSection = () => {
   return (
-    <section className="bg-primary-100 py-10 lg:py-28">
+    <section className="bg-primary-300 py-10 lg:py-28">
       <div className="container flex flex-col-reverse gap-2 md:flex-row md:items-center lg:justify-between">
         <div className="max-w-[628px] flex flex-col gap-3 lg:gap-6">
           <h1 className="font-bold text-2xl lg:text-6xl lg:leading-14">Find a job that suits your interest & skills.</h1>
