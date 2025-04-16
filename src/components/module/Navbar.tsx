@@ -13,7 +13,7 @@ const Navbar = () => {
     setNavbarIsOpen((prev) => !prev);
   };
   return (
-    <nav className="sticky top-0 w-full h-fit py-4 bg-primary ">
+    <nav className="sticky top-0 w-full h-fit py-4 bg-primary z-10">
       <div className="container flex justify-between items-center">
         <IoMdMenu className="cursor-pointer md:hidden size-6" onClick={handleOpenNavbar} />
         <div className={`absolute top-0 ${navbarIsOpen ? "left-0" : "-left-full"} bg-primary w-40 h-screen shadow-md transition-all duration-300 ease md:static md:shadow-none md:w-fit md:h-fit`}>
