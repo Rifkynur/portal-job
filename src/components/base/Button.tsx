@@ -13,7 +13,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({ children, icon, siz
     primary: "bg-bg-blue text-white hover:bg-blue-900",
     secondary: "bg-secondary text-bg-blue hover:bg-bg-blue hover:text-primary",
     primaryOutline: "bg-primary text-bg-blue border border-bg-blue hover:bg-bg-blue hover:text-primary",
-    secondaryOutline: "bg-secondary text-bg-blue border border-bg-blue hover:bg-bg-blue hover:text-primary ",
+    secondaryOutline: "bg-primary text-bg-blue border border-bg-blue hover:bg-bg-blue hover:text-primary ",
   };
 
   const baseClass = "flex items-center gap-2 rounded-md font-medium transition-all cursor-pointer";
