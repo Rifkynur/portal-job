@@ -16,7 +16,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({ children, icon, siz
     secondaryOutline: "bg-primary text-bg-blue border border-bg-blue hover:bg-bg-blue hover:text-primary ",
   };
 
-  const baseClass = "flex items-center gap-2 rounded-md font-medium transition-all cursor-pointer";
+  const baseClass = "flex items-center justify-center gap-2 rounded-md font-medium transition-all cursor-pointer";
   const sizeClass = {
     sm: "text sm py-1 px-3",
     md: "text base py-2 px-4",

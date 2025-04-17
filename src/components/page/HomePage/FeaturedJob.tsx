@@ -13,8 +13,13 @@ const FeaturedJob = () => {
             View All
           </Button>
         </div>
-        <div className="mt-8 grid grid-cols-1 gap-4">
-          <FeaturedJobCard image="apple" location="Australia" salary="34K" status="Full Time" title="Senior UI/UX" />
+        <div className="mt-8 grid grid-cols-1 gap-4 md:gap-6">
+          <FeaturedJobCard image="apple" location="Australia" salary="34K" status="Contract Base" title="Senior UI/UX" />
+          <FeaturedJobCard image="upwork" location="China" salary="40K" status="Full Time" title="Senior UI/UX" />
+          <FeaturedJobCard image="figma" location="Canada" salary="50K" status="Full Time" title="Senior UI/UX" />
+          <FeaturedJobCard image="ulink" location="United State" salary="74K" status="Contract Base" title="Senior UI/UX" />
+          <FeaturedJobCard image="facebook" location="Germany" salary="14K" status="Internship" title="Senior UI/UX" />
+          <FeaturedJobCard image="google" location="France" salary="44K" status="Full Time" title="Senior UI/UX" />
         </div>
       </div>
     </section>

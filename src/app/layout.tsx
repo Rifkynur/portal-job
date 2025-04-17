@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/module/Navbar";
+import "@splidejs/react-splide/css";
 
 const poppins = Poppins({
   variable: "--font-poppins",
